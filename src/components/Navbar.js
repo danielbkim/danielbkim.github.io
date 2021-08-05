@@ -3,7 +3,12 @@ import '../App.css';
 
 const Navbar = () => {
   return (
-    <nav>Hello!</nav>
+    <div class="header">
+      <nav>Hello!</nav>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </div>
   )
 }
 
