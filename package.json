@@ -14,10 +14,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "build": "craco build",
-    "start": "craco start",
-    "test": "craco test",
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "watch:css": "postcss src/tailwind.css -o src/main.css",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
