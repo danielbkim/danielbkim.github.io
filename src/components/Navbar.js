@@ -12,8 +12,8 @@ const Navbar = () => {
   }
 
   return (
-    <div class="header">
-      <nav class="p-6 mx-auto">
+    <div class="header h-12 w-12">
+      <nav class="h-12 w-12">
         Daniel B. Kim
       </nav>
       <div class="progress-container">
