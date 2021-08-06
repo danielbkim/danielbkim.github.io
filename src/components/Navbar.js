@@ -13,7 +13,9 @@ const Navbar = () => {
 
   return (
     <div class="header">
-      <nav>Daniel B. Kim</nav>
+      <nav class="p-6 mx-auto">
+        Daniel B. Kim
+      </nav>
       <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
       </div>
