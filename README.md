@@ -1,3 +1,3 @@
-# Daniel B. Kim: Developer Portfolio
+# Daniel B. Kim : Developer Portfolio
 ---------
 ### Wireframes
