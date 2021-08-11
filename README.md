@@ -3,11 +3,12 @@
 ##### Main Page:
 ![main-page](public/assets/main-page.png)
 ##### About Page:
-![main-page](public/assets/main-page.png)
+![about-page](public/assets/about-page.png)
 ##### Projects:
 ![projects](public/assets/main-page.png)
 ##### Blog:
 ![blog](public/assets/main-page.png)
 ##### Contact:
 ![contact](public/assets/main-page.png)
+
 -------
