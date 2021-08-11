@@ -1,4 +1,4 @@
-# :small_red_triangle: - Daniel B. Kim Portfolio - :small_red_triangle:
+# :construction: - Daniel B. Kim Portfolio - :construction:
 ### Wireframes:
 ##### Main Page
 Bloop
