@@ -1,4 +1,4 @@
-# Daniel B. Kim Portfolio
-## Wireframes
-### Main Page:
+# - Daniel B. Kim Portfolio -
+## Wireframes:
+### Main Page
 Bloop
