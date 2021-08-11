@@ -4,7 +4,7 @@ import { NavbarStyles } from './NavbarStyles';
 const Navbar = () => {
   return (
         <NavbarStyles>
-          <div className="header">Daniel B. Kim</div>
+          <div className="name">Daniel B. Kim</div>
           <div className="nav-links">
             <ul>
               <li><a href="#">About</a></li>

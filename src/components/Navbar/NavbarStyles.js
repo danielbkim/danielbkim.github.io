@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const NavbarStyles = styled.nav`
+  position: fixed;
   height: 20%;
   display: flex;
   /* position: sticky; */

@@ -7,7 +7,6 @@ export const ProgressBarStyles = styled.div`
     height: 8px;
     background: #ccc;
     position: fixed;
-    
   }
 
   .progress-bar {
