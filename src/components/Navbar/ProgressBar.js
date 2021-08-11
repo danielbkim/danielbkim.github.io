@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { ProgressBarStyles } from './ProgressBarStyles';
 
 const ProgressBar = () => {
   window.onscroll = function() { dynamicProgress() };
@@ -10,9 +11,9 @@ const ProgressBar = () => {
     document.getElementById("myBar").style.width = scrolled + "%";
   };
   return (
-    <div className="progress-container">
+    <ProgressBarStyles className="progress-container">
       <div className="progress-bar" id="myBar"></div>
-    </div>
+    </ProgressBarStyles>
   )
 }
 

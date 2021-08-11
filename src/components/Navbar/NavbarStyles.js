@@ -6,6 +6,6 @@ export const NavbarStyles = styled.nav`
   /* position: sticky; */
   /* top: 0; */
   /* z-index: 999; */
-  justify-content: center;
+  /* justify-content: center; */
   font-size: 1.5rem;
 `
