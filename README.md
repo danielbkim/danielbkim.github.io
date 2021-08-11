@@ -7,7 +7,7 @@
 ##### Projects:
 ![projects](public/assets/projects-page.png)
 ##### Blog:
-![blog](public/assets/main-page.png)
+![blog](public/assets/blog-page.png)
 ##### Contact:
 ![contact](public/assets/main-page.png)
 
