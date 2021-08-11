@@ -1,3 +1,4 @@
-# Daniel B. Kim ::: Portfolio
+# Daniel B. Kim : Portfolio
 ---------
-### Wireframes
+### Wireframes:
+##### Main Page
