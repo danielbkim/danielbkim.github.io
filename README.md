@@ -9,6 +9,6 @@
 ##### Blog:
 ![blog](public/assets/blog-page.png)
 ##### Contact:
-![contact](public/assets/main-page.png)
+![contact](public/assets/contact-page.png)
 
 -------
