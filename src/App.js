@@ -1,13 +1,16 @@
 
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar'
+import MainDiv from './components/MainDiv';
+import Navbar from './components/Navbar/Navbar'
+import ProgressBar from './components/Navbar/ProgressBar';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-
+      <MainDiv />
+      <ProgressBar />
       <main>
         
 Հայերեն Shqip ‫العربية Български Català 中文简体 Hrvatski Česky Dansk Nederlands English Eesti Filipino Suomi Français ქართული Deutsch Ελληνικά ‫עברית हिन्दी Magyar Indonesia Italiano Latviski Lietuviškai македонски Melayu Norsk Polski Português Româna Pyccкий Српски Slovenčina Slovenščina Español Svenska ไทย Türkçe Українська Tiếng Việt
