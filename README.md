@@ -11,4 +11,8 @@
 ##### Contact:
 ![contact](public/assets/main-page.png)
 
+<<<<<<< HEAD
 -------
+=======
+-------
+>>>>>>> 00c5f5f2d715a178ab0d44d5346d60458d344be6
