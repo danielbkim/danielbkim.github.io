@@ -1,5 +1,11 @@
 import React from 'react';
-import '../App.css';
+// import '../App.css';
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+  
+`
+
 
 const Navbar = () => {
   window.onscroll = function() { dynamicProgress() };
@@ -10,6 +16,8 @@ const Navbar = () => {
     let scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
   }
+
+
 
   return (
     <div class="header h-12 w-12">
