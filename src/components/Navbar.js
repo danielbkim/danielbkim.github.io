@@ -1,10 +1,9 @@
 import React from 'react';
-// import '../App.css';
 import styled from 'styled-components';
 
-const StyledDiv = styled.div`
-  
-`
+// const NavDiv = styled.div`
+//   display:
+// `
 
 
 const Navbar = () => {
@@ -15,20 +14,26 @@ const Navbar = () => {
     let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     let scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
-  }
+  };
 
 
 
   return (
-    <div class="header h-12 w-12">
-      <nav class="h-12 w-12">
-        Daniel B. Kim
+    <div className="nav-container">
+      <div className="header">Daniel B. Kim</div>
+      <nav className="nav-links">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Hire Now!</a></li>
+        </ul>
       </nav>
-      <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
+      <div className="progress-container">
+        <div className="progress-bar" id="myBar"></div>
       </div>
     </div>
   )
-}
+};
 
 export default Navbar;
