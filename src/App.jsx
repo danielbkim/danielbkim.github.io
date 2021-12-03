@@ -1,22 +1,24 @@
 
-import React from 'react';
-import Navbar from './components/Navbar/Navbar';
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Contact from "./components/Contact/Contact";
+import Intro from "./components/Intro/Intro";
+import Projects from "./components/Projects/Projects";
 
-import './App.scss';
+import "./app.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
         <Navbar />
         <div className="sections">
-          intro
-          highlights
-          portfolio
+          <Intro />
+          <Projects />
+          <Contact />
           blog?
-          contact
         </div>
     </div>
   );
-}
+};
 
 export default App;
