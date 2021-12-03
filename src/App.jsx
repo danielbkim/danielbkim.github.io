@@ -1,9 +1,9 @@
 
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-import Contact from "./components/Contact/Contact";
-import Intro from "./components/Intro/Intro";
-import Projects from "./components/Projects/Projects";
+import Navbar from "./components/navbar/Navbar";
+import Intro from "./components/intro/Intro";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 
 import "./app.scss";
 
@@ -15,7 +15,6 @@ function App() {
           <Intro />
           <Projects />
           <Contact />
-          blog?
         </div>
     </div>
   );
