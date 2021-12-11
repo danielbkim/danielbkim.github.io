@@ -10,7 +10,8 @@ export default function Intro() {
         init(textRef.current, {
             showCursor: true,
             backDelay: 1500,
-            strings: ["Software Engineer", "Designer", "Woodworker", "Photographer", "Creator"]
+            // strings: ["Software Engineer", "Designer", "Woodworker", "Photographer", "Creator"]
+            strings: ["This Portfolio is Under Construction"]
         });
     }, []);
 
