@@ -5,7 +5,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className={"navbar " + (menuOpen && "active")}>
         <div className="wrapper">
           <div className="left">
-            <a href="#intro" className="logo">Daniel.</a>
+            <a href="#intro" className="logo">Hello.</a>
             {/* <a href="#projects">projects</a>
             <a href="#contact">Contact Me</a> */}
           </div>
