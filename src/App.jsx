@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
+import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
@@ -17,6 +18,7 @@ function App() {
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="sections">
           <Intro />
+          <About />
           <Projects />
           <Contact />
         </div>
